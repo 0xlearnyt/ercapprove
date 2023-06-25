@@ -86,6 +86,10 @@ const Home = () => {
                 </button>
             )}
 
+            <a href="https://github.com/0xlearnyt/ercapprove" target="_blank" rel="nofollow noopenner" className="text-blue-600 underline mt-8">
+                Repo
+            </a>
+
         </main>
     )
 }
