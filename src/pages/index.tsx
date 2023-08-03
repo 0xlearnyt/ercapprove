@@ -77,14 +77,12 @@ const Home = () => {
                 Setup Auto OneInch router
             </button>
 
-            {write && (
-                <button
-                    className="bg-blue-600 text-white font-semibold px-4 py-2 rounded-xl mt-4 hover:bg-blue-700 transition duration-100"
-                    onClick={() => write()}
-                >
-                    Approve
-                </button>
-            )}
+            <button
+                className="bg-blue-600 text-white font-semibold px-4 py-2 rounded-xl mt-4 hover:bg-blue-700 transition duration-100"
+                onClick={() => write()}
+            >
+                Approve
+            </button>
 
             <a href="https://github.com/0xlearnyt/ercapprove" target="_blank" rel="nofollow noopenner" className="text-blue-600 underline mt-8">
                 Repo
