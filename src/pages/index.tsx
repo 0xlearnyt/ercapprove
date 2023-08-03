@@ -79,7 +79,7 @@ const Home = () => {
 
             <button
                 className="bg-blue-600 text-white font-semibold px-4 py-2 rounded-xl mt-4 hover:bg-blue-700 transition duration-100"
-                onClick={() => write()}
+                onClick={() => write ? write() : null}
             >
                 Approve
             </button>
